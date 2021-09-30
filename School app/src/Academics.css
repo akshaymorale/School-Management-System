@@ -1,0 +1,49 @@
+
+
+.heading h3 {
+    object-fit: cover;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-size: 45px;
+    padding: 1rem;
+}
+
+.heading p {
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 800px;
+    font-size: 30px;
+    padding: 2rem;
+    
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background-color:  rgb(7, 88, 7);
+    padding: 5rem;
+}
+
+.body h3 {
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.body p {
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.body strong {
+    margin-right: 5px;
+}
+
+.footer-bar {
+    background-color: white;
+    height: 50px;
+}

@@ -1,0 +1,55 @@
+.classroom {
+    padding: 15rem;
+    position: relative;
+}
+
+.classroom h2{
+    object-fit: cover;
+    margin-left: 500px;
+    font-size: 45px;
+    padding: 1rem;
+    float: right;
+}
+
+.classroom p {
+    position: absolute;
+    font-size: 20px;
+}
+
+.classroom img {
+   float: left;
+    margin-left: -50px;
+    width: 55%;
+    height: 500px;
+   
+}
+
+.library {
+    position: relative;
+    color: white;
+    margin-top: 50px;
+    padding: 10rem;
+    background-color: rgb(7, 88, 7);;
+
+}
+
+.library h2 {
+    object-fit: cover;
+    font-size: 45px;
+    padding: 1rem;
+    float: left;
+    margin-right: 800px;
+}
+
+.library p {
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+}
+
+.library img {
+    margin-top: -200px;
+    margin-left: 650px;
+    width: 50%;
+    height: 500px;
+}

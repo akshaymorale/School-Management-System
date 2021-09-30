@@ -1,0 +1,252 @@
+.page {
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.topbar {
+    background-color: rgb(7, 88, 7);
+    height: 50px;
+}
+
+.topbar a {
+    color: black;
+}
+
+.topbar i {
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+
+.home {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.home h1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: black;
+}
+
+.home-logo {
+    margin-top: -120px;
+    margin-left: 40px;
+}
+
+.topnav {
+    padding: 1px 5px;
+    background-color: rgb(7, 88, 7);
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    padding: 15px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topnav a.active {
+    background-color: rgb(5, 48, 5);
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav button {
+    float: right;
+    padding: 14px 16px;
+    background-color: white;
+    border: 1px solid navy;
+    margin-right: 10px;
+}
+
+.topnav-left {
+    margin-left: 30px;
+    float: left;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 700px;
+}
+
+.slide h1 {
+    color: black;
+}
+
+.utilities {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.utilities .box {
+    overflow: hidden;
+    flex: 1 1 10rem;
+    height: 20rem;
+    position: relative;
+}
+
+.utilities .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.utilities .box:hover img {
+    opacity: 0.7;
+} 
+
+.utilities .box .content {
+    margin-top: 90px;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+
+.utilities .box:hover .content {
+    top: 0;
+}
+
+.utilities .box .content p {
+    padding: 0.5rem 0;
+}
+
+
+.about {
+    object-fit: cover;
+    background-color: rgb(7, 88, 7);
+    padding: 3rem;
+    color: white;
+}
+
+.about h3 {
+    object-fit: cover;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 50px;
+    padding: 1rem;
+
+}
+
+.about p {
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 800px;
+    font-size: 30px;
+    padding: 2rem;
+   
+}
+
+.facilities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.facilities .content {
+    margin-top: 50px;
+    flex: 1 1 20rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.facilities .content i {
+    color: rgb(7, 88, 7);
+    padding: 1rem;
+    font-size: 50px;
+  
+}
+
+.facilities .content h3 {
+    padding: 1rem; 
+}
+
+.facilities .content p {
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer .box-container {
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+.footer .box-container .box {
+    padding: 2rem 0;
+    flex: 1 1 20rem;
+    color:white;
+}
+
+.footer .box-container .box i {
+    color: rgb(7, 88, 7);
+    padding: 1rem;
+    font-size: 50px;
+}
+
+.footer .box-container .box h3 {
+    font-size: 30px;
+    padding: 0.7rem 0;
+    color: white;
+}
+
+.footer .box-container .box p {
+    font-size: 15px;
+    padding: 0.7rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    color: rgb(78, 167, 78);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer hr {
+    position: absolute;
+    width: 60%;
+    border: 1px solid rgb(7, 88, 7);
+    border-radius: 30px;
+    margin-top: -50px;
+    margin-left: 250px;
+    
+}
+
+.footer-bar {
+    background-color: rgb(7, 88, 7);
+    height: 50px;
+}
+
+.footer-bar a{
+    color: black;
+}
+
+.footer-bar i {
+    float: right;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+

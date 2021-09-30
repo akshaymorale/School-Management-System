@@ -1,0 +1,28 @@
+Project Readme:
+
+Step 1: Please Install all required modules in VS Code for front-end (react).
+
+How to install?
+
+---> Just Open my folder in VS Code and open terminal. Type "npm install". And You are done with module installation. 
+
+Step 2: Import my "school_management_jwt" project in your Eclipse/STS(prefer STS) from backend Folder.
+
+Step 3: Change username, password and database as per your database from "application.properties" under "src/main/resources".
+
+Step 4: Run the project.
+
+Step 5: 
+Insert following commands in your database.
+
+insert into roles_jpa(user_role) values('ROLE_ADMIN');
+insert into roles_jpa(user_role) values('ROLE_STUDENT');
+insert into roles_jpa(user_role) values('ROLE_TEACHER');
+
+All the requirements are done.
+
+Step 6: Start the front-end from VS Code.
+
+How?
+
+----> Just "npm start" in VS Code Terminal. 

@@ -1,0 +1,31 @@
+.callback {
+    align-items: center;
+    text-align: center;
+}
+
+.callback h2 {
+    margin-top: 20px;
+    font-size: 40px;
+    margin-left: 00px;
+}
+
+.callback p {
+    margin-top: 20px;
+    font-size: 18px;
+    
+}
+
+.callback input {
+    text-align: center;
+    padding: 20px 20px;
+    margin-left: 200px;
+}
+
+.callback button {
+    margin-left: 400px;
+}
+
+#message {
+    text-align: center;
+    padding: 60px 20px;
+}
